@@ -1,0 +1,85 @@
+/* CLASSES */
+
+/*.divPerfil {
+}*/
+
+.divFeed {
+    img {
+        width: var((--largura-divs) - 1rem);
+        max-width: 100%;
+    }
+}
+
+.divIndexMembros {
+    img {
+        width: 15rem;
+        height: 15rem;
+    }
+}
+
+.divPages {
+    :hover {
+        display: block;
+    }
+}
+
+.divPostagem {
+    width: var(largura-divs);
+    margin: 2rem;
+}
+
+.divHeaderPostagem {
+    display: flex;
+    justify-content: left;
+}
+
+.divIndexMembros {
+    color: white;    
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+.divMember {
+    border-right: .1rem solid var(--cor-primaria);
+    word-wrap: break-word;
+    flex: 1;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    max-width: 100%;
+    padding: .7rem;
+}
+
+.divMensagens {
+    padding: .6rem;
+    width: var(--largura-divs);
+    height: 16rem;
+    border: .1rem solid var(--cor-primaria);
+}
+
+.divOneMessage {
+    padding-top: .2rem;
+    border: 1px solid var(--cor-primaria);
+    text-align: left;
+    height: 2rem;
+}
+
+
+.divGroups {
+    padding: .6rem;
+    width: var(--largura-divs);
+    height: 16rem;
+    border: .1rem solid var(--cor-primaria);
+}
+
+.divOneGroup {
+    padding-top: .2rem;
+    border: 1px solid var(--cor-primaria);
+    text-align: left;
+    height: 2rem;
+}
+
+.divMensagens span {
+    color: white;
+}

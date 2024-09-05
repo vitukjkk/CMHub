@@ -1,0 +1,94 @@
+/* IDS */
+
+#imgMensagemPhoto {
+    width: 1rem;
+    height: 1rem;
+}
+
+#imgBanner2 {
+    width: 20rem;
+}
+
+#imgBanner3 {
+    height: 15rem;
+}
+
+#logoCentral {
+    width: 16rem;
+    height: 10rem;
+    display: block;    
+}
+
+#inputCriarPostagemMain {
+    width: var(--largura-divs);
+    height: 30rem;
+}
+
+#inputCriarPostagem {
+    height: 14rem;
+    width: 11rem;
+}
+
+#spanNumberMessages {
+    color: var(--cor-primaria);
+}
+
+#spanNamePostagem {
+    color: white;
+}
+
+#spanNumberMessages01 {
+    color: var(--cor-primaria);
+}
+
+#spanNumberMessages02 {
+    color: var(--cor-primaria);
+}
+
+#spanNumberMessages03 {
+    color: var(--cor-primaria);
+}
+
+#spanNumberMessages04 {
+    color: var(--cor-primaria);
+}
+
+#spanNumberMessages05 {
+    color: var(--cor-primaria);
+}
+
+#spanNumberMessages06 {
+    color: var(--cor-primaria);
+}
+
+#spanNumberMessages07 {
+    color: var(--cor-primaria);
+}
+
+#spanNumberGroups01 {
+    color: var(--cor-primaria);
+}
+
+#spanNumberGroups02 {
+    color: var(--cor-primaria);
+}
+
+#spanNumberGroups03 {
+    color: var(--cor-primaria);
+}
+
+#spanNumberGroups04 {
+    color: var(--cor-primaria);
+}
+
+#spanNumberGroups05 {
+    color: var(--cor-primaria);
+}
+
+#spanNumberGroups06 {
+    color: var(--cor-primaria);
+}
+
+#spanNumberGroups07 {
+    color: var(--cor-primaria);
+}
