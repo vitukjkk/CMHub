@@ -39,8 +39,6 @@ header {
     }
 }
 
-
-
 body {
 	text-align: center;
 }
@@ -65,7 +63,6 @@ input[type="text"] {
     text-align: left;
     display: inline;
     justify-content: right;
-
 }
 
 input[type="text"]:hover {
@@ -79,10 +76,6 @@ button {
     margin: .6rem;
     padding: .6rem;
 }
-
-/*
-button:hover {
-}*/
 
 p {
     color: white;

@@ -1,5 +1,15 @@
 /* IDS */
 
+#imgIndexEvento {
+    width: 20rem;
+    height: 40rem;
+}
+
+#imgMensagemGroupPhoto {
+    width: 1rem;
+    height: 1rem;
+}
+
 #imgMensagemPhoto {
     width: 1rem;
     height: 1rem;

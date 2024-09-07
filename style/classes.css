@@ -3,6 +3,7 @@
 /*.divPerfil {
 }*/
 
+
 .divFeed {
     img {
         width: var((--largura-divs) - 1rem);
@@ -60,7 +61,7 @@
 
 .divOneMessage {
     padding-top: .2rem;
-    border: 1px solid var(--cor-primaria);
+    border: 1px solid white;
     text-align: left;
     height: 2rem;
 }
@@ -75,7 +76,7 @@
 
 .divOneGroup {
     padding-top: .2rem;
-    border: 1px solid var(--cor-primaria);
+    border: 1px solid white;
     text-align: left;
     height: 2rem;
 }
