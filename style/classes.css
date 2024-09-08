@@ -1,5 +1,48 @@
 /* CLASSES */
 
+.mainMessages {
+    display: grid;
+    grid-template-columns: 50% 50%; /* Duas colunas de tamanho igual */
+}
+
+.divOneMessageInPage {
+    border: 1px solid var(--cor-primaria);
+    display: flex;
+    margin-left: 5%;
+    justify-content: space-between;
+    padding: .7rem;
+}
+
+.divMensagensRight {
+    background-color: white;
+    margin-right: 5%;
+    p {
+        color: black;
+    }
+}
+
+.divOneMessageInPage {
+    font-weight: bold;
+    span:nth-child(2) {
+        color: white;
+    }
+}
+
+
+.divOneSeguidor {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    span {
+        color: white;
+    }
+}
+
+.divPhotoAndNameSeguidor {
+    width: 100%;
+    justify-content: left;
+}
+
 .divPerfilBio {
     textarea {
         text-align: center;
@@ -9,12 +52,16 @@
         width: 50%;
         resize: none;
         height: 10rem;
+        background-color: black;
+        border: none;
+        color: white;
     }
 }
 
 .divFooterPostagem {
     img {
-        width: 1rem;
+        width: 1em;
+        height: 1rem;
     }
 }
 
