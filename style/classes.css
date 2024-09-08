@@ -1,5 +1,17 @@
 /* CLASSES */
 
+.divPerfilBio {
+    textarea {
+        text-align: center;
+        color: var(--cor-primaria);
+        font-size: 1.1rem;
+        font-family: var(--fonte-primaria);
+        width: 50%;
+        resize: none;
+        height: 10rem;
+    }
+}
+
 .divFooterPostagem {
     img {
         width: 1rem;
