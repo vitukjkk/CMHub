@@ -8,6 +8,7 @@
   		<link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../style/index.css">
 		<script src="../script/main.js"></script>
+		<link rel="icon" href="../assets/icons/title.ico">
 	</head>
 	<body>
 		<header>
@@ -41,39 +42,71 @@
 		<main>
 			<h1>Feed</h1>
 			<p>este é o seu feed<p>
-
 			<div class="divPostagem">
 				<div class="divHeaderPostagem">
-					<img src="">FOTO_PERFIL
-					<span id="spanNamePostagem01">Nome</span>
+					<img src="../assets/icons/perfil_pequeno.png">
+					<span id="spanNamePostagem01">João</span>
 				</div><br>
-				CONTENT<br>
-				<img src=""> CORAÇÃO
-				<button>Comentar</button>
+				<div class="divContentPostagem">
+					<p>Olá, tudo bem?</p>
+					<img src="../assets/images/feed/joao.jpg"><br>
+					<input
+						type="text"
+						id="inputComentarioPostagem"
+						name="inputComentarioPostagem"
+						placeholder="Comente algo...">
+				</div>
+				<br>
+				<div class="divFooterPostagem">
+					<img onclick="controlIndexCoracao=1;changeCoracao()" id="imgPostagemCoracaoSemMark01" src="../assets/images/feed/tomark_coracao_pequeno.png">
+					<button>Comentar</button>
+				</div>
 			</div>
 
 			<hr>
 
 			<div class="divPostagem">
 				<div class="divHeaderPostagem">
-					<img src="">FOTO_PERFIL
-					<span id="spanNamePostagem02">Nome</span>
+					<img src="../assets/icons/perfil_pequeno.png">
+					<span id="spanNamePostagem01">Maria</span>
 				</div><br>
-				CONTENT<br>
-				<img src=""> CORAÇÃO
-				<button>Comentar</button>
+				<div class="divContentPostagem">
+					<p>como estou?</p>
+					<img src="../assets/images/feed/maria.jpg"><br>
+					<input
+						type="text"
+						id="inputComentarioPostagem"
+						name="inputComentarioPostagem"
+						placeholder="Comente algo...">
+				</div>
+				<br>
+				<div class="divFooterPostagem">
+					<img onclick="controlIndexCoracao=2;changeCoracao()" id="imgPostagemCoracaoSemMark02" src="../assets/images/feed/tomark_coracao_pequeno.png">
+					<button>Comentar</button>
+				</div>
 			</div>
 
 			<hr>
 
 			<div class="divPostagem">
 				<div class="divHeaderPostagem">
-					<img src="">FOTO_PERFIL
-					<span id="spanNamePostagem03">Nome</span>
+					<img src="../assets/icons/perfil_pequeno.png">
+					<span id="spanNamePostagem01">Pedro</span>
 				</div><br>
-				CONTENT<br>
-				<img src=""> CORAÇÃO
-				<button>Comentar</button>
+				<div class="divContentPostagem">
+					<p>slv rapaziada!</p>
+					<img src="../assets/images/feed/pedro.jpg"><br>
+					<input
+						type="text"
+						id="inputComentarioPostagem"
+						name="inputComentarioPostagem"
+						placeholder="Comente algo...">
+				</div>
+				<br>
+				<div class="divFooterPostagem">
+					<img onclick="controlIndexCoracao=3;changeCoracao()" id="imgPostagemCoracaoSemMark03" src="../assets/images/feed/tomark_coracao_pequeno.png">
+					<button>Comentar</button>
+				</div>
 			</div>
 		</main>
 		<footer>

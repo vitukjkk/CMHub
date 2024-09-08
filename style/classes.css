@@ -1,8 +1,16 @@
 /* CLASSES */
 
-/*.divPerfil {
-}*/
+.divFooterPostagem {
+    img {
+        width: 1rem;
+    }
+}
 
+.divContentPostagem {
+    img, input[type="text"] {
+        width: 30rem;
+    }
+}
 
 .divFeed {
     img {
@@ -29,7 +37,16 @@
 
 .divHeaderPostagem {
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    vertical-align: middle;
+    img {
+        padding: 0 1rem 0 1rem;
+    }
+    span {
+        color: white;
+        height: 100%;
+        vertical-align: middle;
+    }
 }
 
 .divIndexMembros {
