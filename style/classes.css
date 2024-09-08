@@ -5,6 +5,42 @@
     grid-template-columns: 50% 50%; /* Duas colunas de tamanho igual */
 }
 
+.divMensagensAbove {
+    overflow: auto;
+    padding: 5%;
+
+    #pReceptorMensagem {
+        text-align: end;
+        background-color: black;
+        color: white;
+        margin-left: 50%;
+        border-radius: 1rem;
+        margin-bottom: 0;
+        padding: .4rem;
+    }
+
+    #pReceptorMensagemHorario {
+        text-align: end;
+        
+    }
+    
+    #pEnviadorMensagem {
+        text-align: start;
+        background-color: black;
+        color: var(--cor-primaria);
+        margin-right: 50%;
+        margin-bottom: 0;
+        border-radius: 1rem;
+        padding: .4rem;
+    }
+    
+    #pEnviadorMensagemHorario {
+        text-align: start;
+        color: var(--cor-primaria);
+        margin-bottom: 0;
+    }
+}
+
 .divOneMessageInPage {
     border: 1px solid var(--cor-primaria);
     display: flex;
@@ -14,10 +50,16 @@
 }
 
 .divMensagensRight {
+    display: grid;
+    grid-template-rows: 90% 10%;
     background-color: white;
+    overflow: auto;
     margin-right: 5%;
     p {
         color: black;
+    }
+    input[type="text"] {
+        width: 85%;
     }
 }
 
