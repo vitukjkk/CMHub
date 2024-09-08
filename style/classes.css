@@ -19,9 +19,7 @@
 }
 
 .divPages {
-    :hover {
-        display: block;
-    }
+    transition: display 0.5s ease-in-out;
 }
 
 .divPostagem {

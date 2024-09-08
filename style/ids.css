@@ -1,5 +1,8 @@
 /* IDS */
 
+#divPages {
+    transition: display 0.5s ease-in-out;
+}
 
 #imgBannerFeedIndex {
     overflow: hidden;

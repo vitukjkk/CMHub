@@ -35,8 +35,12 @@ function changeBannerEvents() {
         controlBannerEvents = 1;
         imgBannerEventsIndex.src = "../assets/images/eventos/desafio.png";
     }
+    else if(controlBannerEvents === 1) {
+        controlBannerEvents = 2;
+        imgBannerEventsIndex.src = "../assets/images/eventos/notas_saber.png";
+    }
     else {
         controlBannerEvents = 0;
-        imgBannerEventsIndex.src = "../assets/images/eventos/notas_saber.png";
+        imgBannerEventsIndex.src = "../assets/images/eventos/vamos_jogar.png";
     }
 }
