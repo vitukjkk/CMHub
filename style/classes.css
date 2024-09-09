@@ -1,5 +1,10 @@
 /* CLASSES */
 
+.divRedesSociais {
+    display: flex;
+    justify-content: center;
+}
+
 .mainMessages {
     display: grid;
     grid-template-columns: 50% 50%; /* Duas colunas de tamanho igual */
@@ -59,7 +64,7 @@
         color: black;
     }
     input[type="text"] {
-        width: 85%;
+        width: 80%;
     }
 }
 
