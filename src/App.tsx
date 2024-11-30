@@ -3,13 +3,14 @@ import './App.css';
 
 // COMPONENTS
 import Header from './components/Header/Header';
+import Home from './pages/Home/Home';
 import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <p>is it life beatiful?</p>
+      <Home />
       <Footer />
     </div>
   );

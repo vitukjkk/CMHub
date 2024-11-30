@@ -20,7 +20,7 @@ export default function Header() {
                 <img id={styles.imgHeaderLogo} src={Logo_Justa} alt="Logo principal" className="logo"/>
             </div>
             <div className="divHeaderRight">
-                <input id="inputHeaderSearch" type="text"/>
+                <input id="inputHeaderSearch" placeholder="o que você procura?" type="text"/>
             </div>
         </header>
     )

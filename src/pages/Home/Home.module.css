@@ -1,0 +1,22 @@
+@import url(../../index.css);
+
+.divHomeBaners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    img {
+        width: 100%;
+        scale: .8;
+    }
+}
+
+button {
+    font: var(--fonte-primaria);
+    color: var(--cor-secundaria);
+    background-color: var(--background-primario);
+
+    padding: .3rem;
+    margin: .3rem;
+    border: 1px solid var(--cor-terciaria);
+    border-radius: .2rem;
+}
