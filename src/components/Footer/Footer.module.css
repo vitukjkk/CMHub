@@ -1,0 +1,13 @@
+@import url(../../index.css);
+
+footer {
+    color: var(--cor-secundaria);
+
+    font: var(--fonte-primaria);
+    text-align: center;
+
+    a {
+        color: var(--cor-terciaria);
+        font-weight: bold;
+    }
+}
