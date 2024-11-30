@@ -1,6 +1,8 @@
 @import url(../../index.css);
 
 footer {
+    padding: 1rem;
+    
     color: var(--cor-secundaria);
 
     font: var(--fonte-primaria);
