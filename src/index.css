@@ -19,3 +19,29 @@
   /* FONTES */
   --fonte-primaria: "SUSE", sans-serif;
 }
+
+button {
+  font: var(--fonte-primaria);
+  color: var(--cor-secundaria);
+  background-color: var(--background-primario);
+
+  padding: .3rem;
+  margin: .3rem;
+  border: 1px solid var(--cor-terciaria);
+  border-radius: .2rem;
+}
+
+button:active {
+  background-color: var(--cor-terciaria);
+  color: var(--background-primario);
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+a {
+  color: var(--cor-terciaria);
+  text-decoration: none;
+}
