@@ -20,3 +20,8 @@ button {
     border: 1px solid var(--cor-terciaria);
     border-radius: .2rem;
 }
+
+button:active {
+    background-color: var(--cor-terciaria);
+    color: var(--background-primario);
+}
