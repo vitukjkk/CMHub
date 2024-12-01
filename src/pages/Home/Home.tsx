@@ -1,6 +1,12 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Home.module.css";
 
+// ELEMENTOS EXTERNOS
+
+import Mensagens from '../Mensagens/Mensagens';
+
+// ELEMENTOS INTERNOS
+
 import Banner01 from '../../assets/images/banners/banner_principal.png';
 import Banner02 from '../../assets/images/banners/banner_secundario.png';
 
@@ -12,8 +18,11 @@ import Evento01 from '../../assets/images/eventos/desafio.png';
 import Evento02 from '../../assets/images/eventos/notas_saber.png';
 import Evento03 from '../../assets/images/eventos/vamos_jogar.png';
 
+import Perfil from '../../assets/icons/perfil.png';
+
 var banners = [Banner01, Banner02];
 const MAX_BANNERS = banners.length;
+
 
 const eventos = [Evento01, Evento02, Evento03];
 const eventosContent = [
@@ -70,6 +79,12 @@ export default function Home() {
 
     const bannerStyle = isHovered ? {} : {scale: '1'};
 
+    // =================================================================
+    // EXPLORAR
+    // ================================================================
+
+    
+
     // ================================================================
     // EVENTOS
     // ================================================================
@@ -115,7 +130,7 @@ export default function Home() {
                         <img src={Destaque01} alt="destaque 01"/>
                         <p>
                             novas funcionalidades adicionadas ao site,
-                            confira na seção notícias do site <a href="https://saberevolve.com.br/notices.html">clicando aqui</a>
+                            confira na seção notícias do site <a href="https://saberevolve.com.br/" target="_blank">clicando aqui</a>
                         </p>
                     </div>
                     <div className={styles.divHomeDestaquesContentItem}>
@@ -145,8 +160,36 @@ export default function Home() {
                 </div>
             </div>
 
+            <h1>EXPLORAR</h1>
+            
             <div className={styles.divHomeExplore}>
 
+                <div className={styles.divHomeExploreItem}>
+                    <h2>Perfil</h2>
+                    <img src={Perfil}/>
+                    <p>
+                        configure seu perfil e o personalize como você quiser!
+                    </p>
+                    <button className={styles.buttonHomeExploreAction}>Configurar</button>
+                </div>
+
+                <div className={styles.divHomeExploreItem}>
+                    <h2>Criar postagem</h2>
+                    <textarea/>
+                    <p>
+                        crie postagens e compartilhe com a comunidade!
+                    </p>
+                    <button className={styles.buttonHomeExploreAction}>Postar</button>
+                </div>
+
+                <div className={styles.divHomeExploreItem}>
+                    <h2>Mensagens</h2>
+                    <Mensagens/>
+                </div>
+
+                <div className={styles.divHomeExploreItem}>
+                    <h2>Grupos</h2>
+                </div>
             </div>
 
             <div className={styles.divHomeEventos}>

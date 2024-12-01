@@ -49,6 +49,41 @@
     height: 300px;
 }
 
+.divHomeExplore {
+    max-height: 100%;
+    max-width: 100%;
+    gap: 1rem;
+    text-align: center;
+    color: var(--cor-secundaria);
+        
+    @media (min-width: 450px) {
+
+    }
+
+    @media (min-width: 451px) and (max-width: 1027px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 1028px) {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    textarea {
+        font: var(--fonte-primaria);
+        padding: .3rem;
+        width: 100%;
+        height: 400px;
+        max-width: 100%;
+        resize: none;
+        background-color: var(--background-primario);
+        border: 1px solid var(--cor-terciaria);
+        color: var(--cor-secundaria);
+        border-radius: .4rem;
+    }
+}
+
 .divHomeEventosOne {
     color: var(--cor-secundaria);
     text-align: center;
