@@ -8,12 +8,39 @@ import Destaque01 from '../../assets/images/destaques/saber_evolve.png';
 import Destaque02 from '../../assets/images/destaques/netflix.png';
 import Destaque03 from '../../assets/images/destaques/cypher.jpg';
 
+import Evento01 from '../../assets/images/eventos/desafio.png';
+import Evento02 from '../../assets/images/eventos/notas_saber.png';
+import Evento03 from '../../assets/images/eventos/vamos_jogar.png';
+
 var banners = [Banner01, Banner02];
 const MAX_BANNERS = banners.length;
 
+const eventos = [Evento01, Evento02, Evento03];
+const eventosContent = [
+    {
+        title: "Desafio",
+        date: "1/12/2024 às 08:25",
+        description: "Participe do desafio e ganhe prêmios incríveis."
+    },
+    {
+        title: "Notas saber",
+        date: "3/12/2024 às 14:20",
+        description: "Modularize seus conteúdos e veja mais amplamente."
+    },
+    {
+        title: "Vamos jogar",
+        date: "7/12/2024 às 21:00",
+        description: "Pronto para a jogatina?"
+    }
+]
+
+const MAX_EVENTOS = eventos.length;
+
 export default function Home() {
 
+    // ================================================================
     // BANNERS
+    // ================================================================
 
     const [bannerIndex, setBannerIndex] = useState(0);
     const [isHovered, setIsHovered] = useState(false);
@@ -42,6 +69,28 @@ export default function Home() {
     }
 
     const bannerStyle = isHovered ? {} : {scale: '1'};
+
+    // ================================================================
+    // EVENTOS
+    // ================================================================
+
+    
+    const [eventoIndex, setEventoIndex] = useState(0);
+
+    function changeEvento(index : number) {
+
+        switch (index) {
+            case 0:
+                setEventoIndex((eventoIndex) => (eventoIndex + 1) % MAX_EVENTOS);
+                break;
+            case 1:
+                setEventoIndex((eventoIndex) => (eventoIndex + 1) % MAX_EVENTOS);
+                break;
+            case 2:
+                setEventoIndex((eventoIndex - 1) % MAX_EVENTOS);
+                break;
+        }
+    }
 
     return (
         <div>
@@ -98,6 +147,19 @@ export default function Home() {
 
             <div className={styles.divHomeExplore}>
 
+            </div>
+
+            <div className={styles.divHomeEventos}>
+                <h1>EVENTOS</h1>
+                <div className={styles.divHomeEventosOne}>
+                    <h2>{eventosContent[eventoIndex].title}</h2>
+                    <img src={eventos[eventoIndex]} alt="Imagem evento"/>
+                    <span>{eventosContent[eventoIndex].date}</span>
+                    <p>{eventosContent[eventoIndex].description}</p>
+                    <button className={styles.buttonHomeEventoAction}>Participar</button><br/>
+                    <button onClick={() => changeEvento(0)}>Anterior</button>
+                    <button onClick={() => changeEvento(1)}>Próximo</button>
+                </div>
             </div>
         </div>
     )

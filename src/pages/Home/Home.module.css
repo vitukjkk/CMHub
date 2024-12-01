@@ -48,3 +48,29 @@
 #imgCypher {
     height: 300px;
 }
+
+.divHomeEventosOne {
+    color: var(--cor-secundaria);
+    text-align: center;
+
+    img {
+        display: block;
+        margin: 0 auto;
+        @media (min-width: 450px) {
+            width: 50%;
+        }
+        @media (min-width: 1028px) {
+            width: 30%;
+        }
+    }
+}
+
+.buttonHomeEventoAction {
+    font-size: 1.5rem;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    border: none;
+    border-radius: .2rem;
+    padding: .6rem;
+    margin: .3rem;
+}
