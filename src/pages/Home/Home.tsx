@@ -3,7 +3,7 @@ import styles from "./Home.module.css";
 
 // ELEMENTOS EXTERNOS
 
-import Mensagens from '../Mensagens/Mensagens';
+import Mensagens from "../Mensagens/Mensagens";
 
 // ELEMENTOS INTERNOS
 
@@ -185,10 +185,6 @@ export default function Home() {
                 <div className={styles.divHomeExploreItem}>
                     <h2>Mensagens</h2>
                     <Mensagens/>
-                </div>
-
-                <div className={styles.divHomeExploreItem}>
-                    <h2>Grupos</h2>
                 </div>
             </div>
 

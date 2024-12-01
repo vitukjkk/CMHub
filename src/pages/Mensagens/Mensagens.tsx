@@ -10,6 +10,3 @@ export default function Mensagens() {
         </div>
     );
 }
-
-export function Grupos() {
-};

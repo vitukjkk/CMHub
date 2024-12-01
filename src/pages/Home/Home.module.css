@@ -55,25 +55,16 @@
     gap: 1rem;
     text-align: center;
     color: var(--cor-secundaria);
-        
-    @media (min-width: 450px) {
-
-    }
-
-    @media (min-width: 451px) and (max-width: 1027px) {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
+    
     @media (min-width: 1028px) {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     textarea {
         font: var(--fonte-primaria);
         padding: .3rem;
-        width: 100%;
+        width: 80%;
         height: 400px;
         max-width: 100%;
         resize: none;
