@@ -1,0 +1,35 @@
+.divMensagens {
+    @media (min-width: 800px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-around;
+    }
+
+    span {
+        color: var(--cor-primaria);
+    }
+}
+
+
+.divMensagensPrivadasOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 1fr;
+    align-items: center;
+    border: 1px solid var(--cor-primaria);
+}
+
+.divMensagensGroupsOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 1fr;
+    align-items: center;
+    border: 1px solid var(--cor-terciaria);
+}
+
+.divMensagensGrupo {
+    padding: .4rem;
+}
+
+.h2TitleMensagem {
+    display: block;
+    width: 100%;
+}
