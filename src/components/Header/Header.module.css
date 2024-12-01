@@ -5,6 +5,23 @@ header {
 
     align-items: center;
 
+    ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        font-weight: bold;
+        padding: .5rem;
+        border-radius: .2rem;
+    }
+
+    li:hover {
+        background-color: var(--cor-terciaria);
+    }
+
     input[type="text"] {
         font: var(--fonte-primaria);
         color: var(--cor-secundaria);
@@ -27,6 +44,16 @@ header {
     }
 }
 
+.divHeaderLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        width: 50px;
+    }
+}
+
 .icon {
     width: 50px;
     height: auto;
@@ -35,4 +62,38 @@ header {
 
 #imgHeaderLogo {
     max-width: 100%;
+}
+
+.paginas {
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+    color: var(--cor-secundaria);
+    border: 1px solid var(--cor-terciaria);
+    border-radius: .2rem;
+}
+
+.notificacoes {
+    margin: 1rem;
+
+    padding: 1rem;
+    color: var(--cor-secundaria);
+    border: 1px solid var(--cor-terciaria);
+    border-radius: .2rem;
+}
+
+.notificacoesOne {
+    border: 1px solid var(--cor-primaria);
+    border-radius: .4rem;
+    padding: .3rem;
+    margin: 1rem 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media (min-width: 689px) {
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+    }
 }
