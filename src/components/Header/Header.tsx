@@ -1,6 +1,11 @@
 import React, { useState } from "react";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
 import styles from "./Header.module.css";
+
+// PÁGINAS
+
+import FeedPage from '../../pages/Feed/Feed';
 
 // ICONS
 
@@ -33,11 +38,13 @@ export default function Header() {
                 {/* PÁGINAS */}
                 <div className={styles.paginas} style={displayPages}>
                     <ul>
-                        <li>Home</li>
-                        <li>Feed</li>
-                        <li>Mensagens</li>
-                        <li>Perfil</li>
-                        <li>Sobre</li>
+                        <Router>
+                            <li>Home</li>
+                            <li><Link to="/feed">Feed</Link></li>
+                            <li>Mensagens</li>
+                            <li>Perfil</li>
+                            <li>Sobre</li>
+                        </Router>
                     </ul>
                 </div>
 

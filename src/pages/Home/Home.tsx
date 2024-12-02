@@ -166,7 +166,7 @@ export default function Home() {
 
                 <div className={styles.divHomeExploreItem}>
                     <h2>Perfil</h2>
-                    <img src={Perfil}/>
+                    <img alt="Imagem de perfil" src={Perfil}/>
                     <p>
                         configure seu perfil e o personalize como você quiser!
                     </p>
