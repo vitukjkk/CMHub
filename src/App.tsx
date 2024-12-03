@@ -1,22 +1,33 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+// PÁGINAS
+
 import FeedPage from './pages/Feed/Feed';
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import MensagensPage from './pages/Mensagens/Mensagens';
+import PerfilPage from './pages/Perfil/Perfil';
+import SobrePage from './pages/Sobre/Sobre';
 
 // COMPONENTS
 import Header from './components/Header/Header';
 import Home from './pages/Home/Home';
 import Footer from './components/Footer/Footer';
 
-function App() {
-  console.log(window.location.pathname)
+export default function App() {
   return (
-    <div className="App">
-      <Header />
-      <Home />
-      <Footer />
-    </div>
+      <Router>
+        <div className="App">
+          <Header />
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/feed" element={<FeedPage />} />
+              <Route path="/mensagens" element={<MensagensPage />} />
+              <Route path="/perfil" element={<PerfilPage />} />
+              <Route path="/sobre" element={<SobrePage />} />
+            </Routes>
+          <Footer />
+        </div>
+      </Router>
   );
 }
-
-export default App;

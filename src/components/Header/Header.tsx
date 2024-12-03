@@ -1,11 +1,7 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import styles from "./Header.module.css";
-
-// PÁGINAS
-
-import FeedPage from '../../pages/Feed/Feed';
 
 // ICONS
 
@@ -38,13 +34,11 @@ export default function Header() {
                 {/* PÁGINAS */}
                 <div className={styles.paginas} style={displayPages}>
                     <ul>
-                        <Router>
-                            <li>Home</li>
-                            <li><Link to="/feed">Feed</Link></li>
-                            <li>Mensagens</li>
-                            <li>Perfil</li>
-                            <li>Sobre</li>
-                        </Router>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/feed">Feed</Link></li>
+                        <li><Link to="/mensagens">Mensagens</Link></li>
+                        <li><Link to="/perfil">Perfil</Link></li>
+                        <li><Link to="/sobre">Sobre</Link></li>
                     </ul>
                 </div>
 
@@ -52,17 +46,17 @@ export default function Header() {
 
                 <div style={displayNotificacoes} className={styles.notificacoes}>
                     <div className={styles.notificacoesOne}>
-                        <img src={Perfil}/>
+                        <img alt="Perfil" src={Perfil}/>
                         <p>Conteúdo notificação</p>
                         <span>01/12/2024</span>
                     </div>
                     <div className={styles.notificacoesOne}>
-                        <img src={Perfil}/>
+                        <img alt="Perfil" src={Perfil}/>
                         <p>Conteúdo notificação</p>
                         <span>01/12/2024</span>
                     </div>
                     <div className={styles.notificacoesOne}>
-                        <img src={Perfil}/>
+                        <img alt="Perfil"src={Perfil}/>
                         <p>Conteúdo notificação</p>
                         <span>01/12/2024</span>
                     </div>

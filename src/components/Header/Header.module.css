@@ -44,6 +44,10 @@ header {
     }
 }
 
+a {
+    color: var(--cor-secundaria);
+}
+
 .divHeaderLeft {
     display: flex;
     flex-direction: column;
