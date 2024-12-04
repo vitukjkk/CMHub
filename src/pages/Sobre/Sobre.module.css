@@ -1,0 +1,21 @@
+.divSobre {
+    text-align: center;
+    color: var(--cor-secundaria);
+}
+
+.divMainContactsContainer {
+    justify-content: center;
+    align-items: center;
+    
+    @media (min-width: 426px) and (max-width: 825px) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    @media (min-width: 826px) {
+        display: flex;
+    }
+}
+
+.divMainOneContact {
+    padding: .5rem;
+}

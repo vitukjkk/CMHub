@@ -27,8 +27,8 @@ export default function Header() {
                 <div className={styles.divIcons}>
                     <img onClick={() => handlePages()} src={Pages} alt="Ícone páginas" className={styles.icon}/>
                     <img onClick={() => handleNotificacoes()} src={Notificacao} alt="Ícone notificação" className={styles.icon}/>
-                    <img src={Feed} alt="Ícone feed" className={styles.icon}/>
-                    <img src={Perfil} alt="Ícone perfil" className={styles.icon}/>
+                    <Link to="/feed"><img src={Feed} alt="Ícone feed" className={styles.icon}/></Link>
+                    <Link to="/perfil"><img src={Perfil} alt="Ícone perfil" className={styles.icon}/></Link>
                 </div>
 
                 {/* PÁGINAS */}
@@ -64,7 +64,7 @@ export default function Header() {
             </div>
 
             <div className="divHeaderCenter">
-                <img id={styles.imgHeaderLogo} src={Logo_Justa} alt="Logo principal" className="logo"/>
+                <Link to="/"><img id={styles.imgHeaderLogo} src={Logo_Justa} alt="Logo principal" className="logo"/></Link>
             </div>
             <div className="divHeaderRight">
                 <input id="inputHeaderSearch" placeholder="o que você procura?" type="text"/>

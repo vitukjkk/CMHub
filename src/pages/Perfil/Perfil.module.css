@@ -1,0 +1,103 @@
+.divPerfil {
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.divPerfilMain {
+
+    color: var(--cor-secundaria);
+
+    width: fit-content;
+
+    border: 1px solid var(--cor-primaria);
+    border-radius: 10px;
+}
+
+.divPerfilMainHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+    span {
+        color: var(--cor-primaria);
+    }
+}
+
+/* .divPerfilMainContent {
+
+} */
+
+.divPerfilMainContentAmigos {
+    display: flex;
+    justify-content: space-around;
+
+    span {
+        color: var(--cor-primaria);
+    }
+}
+
+.divPerfilMainContentBio {
+    input[type="text"] {
+        display: inline-block;
+        width: 80%;
+        height: fit-content;
+
+        font: var(--fonte-primaria);
+        text-align: center;
+        color: var(--cor-secundaria);
+        background-color: var(--background-primario);
+
+        padding: .5rem;
+
+        border: 1px solid var(--cor-terciaria);
+        border-radius: .2rem;
+
+        overflow: hidden;
+        resize: none;
+    }
+}
+
+.divPerfilMainContentBioLinksOne {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: .3rem;
+
+    a {
+        text-decoration: underline;
+    }
+}
+
+.divPerfilMainContentPosts {
+    @media (max-width: 600px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    @media (min-width: 601px) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    padding: 1rem;
+
+    span {
+        color: var(--cor-primaria);
+    }
+}
+
+.divPerfilMainContentPostsOne {
+    img {
+        width: 150px;
+        height: 150px;
+    }
+}

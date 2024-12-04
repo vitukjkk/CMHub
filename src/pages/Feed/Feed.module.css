@@ -1,5 +1,6 @@
 .divFeed {
     text-align: center;
+    overflow-x: hidden;
 }
 
 .divFeedPost {
@@ -17,12 +18,17 @@
 }
 
 .divFeedMain {
-    color: var(--cor-secundaria)
+    color: var(--cor-secundaria);
+    p {
+        max-width: 100%;
+    }
 }
 
 .divFeedPostHeader {
     color: var(--cor-quadraria);
     background-color: var(--cor-primaria);
+
+    max-width: 100%;
 
     padding: 1rem;
 
@@ -40,10 +46,12 @@
 }
 
 .divFeedPostContent {
+    max-width: 100%;
     color: var(--cor-secundaria);
 }
 
 .divFeedPostFooter {
+    max-width: 100%;
     img {
         width: 50px;
         height: 50px;

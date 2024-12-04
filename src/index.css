@@ -19,6 +19,8 @@
 
   /* FONTES */
   --fonte-primaria: "SUSE", sans-serif;
+
+  overflow-x: hidden;
 }
 
 button {

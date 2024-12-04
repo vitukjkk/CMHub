@@ -11,6 +11,9 @@ import Maria from '../../assets/images/feed/maria.jpg';
 import Pedro from '../../assets/images/feed/pedro.jpg';
 
 export default function Feed() {
+
+    document.title = 'CMHub - Feed';
+
     return (
         <div className={styles.divFeed}>
             <h1>Feed</h1>
@@ -112,10 +115,6 @@ export default function Feed() {
                         </div>
                     </div>
                 </div>
-
-                <p>
-                    este é o fim do seu feedback! adicione mais amigos para ver mais postagens
-                </p>
             </div>
         </div>
     );

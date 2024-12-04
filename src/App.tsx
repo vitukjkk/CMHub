@@ -15,13 +15,14 @@ import Home from './pages/Home/Home';
 import Footer from './components/Footer/Footer';
 
 export default function App() {
+
   return (
       <Router>
         <div className="App">
           <Header />
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/feed" element={<FeedPage />} />
+              <Route path="/feed" element={<FeedPage />}/>
               <Route path="/mensagens" element={<MensagensPage />} />
               <Route path="/perfil" element={<PerfilPage />} />
               <Route path="/sobre" element={<SobrePage />} />
