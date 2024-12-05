@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/CMHub-PAGES/static/css/main.c1b5c667.css",
+    "main.js": "/CMHub-PAGES/static/js/main.83f97fc6.js",
+    "static/js/453.204745bd.chunk.js": "/CMHub-PAGES/static/js/453.204745bd.chunk.js",
+    "static/media/pedro.jpg": "/CMHub-PAGES/static/media/pedro.af4e2004ede5dd29a0ad.jpg",
+    "static/media/maria.jpg": "/CMHub-PAGES/static/media/maria.175123c3c112a83b4112.jpg",
+    "static/media/post_abstrato.png": "/CMHub-PAGES/static/media/post_abstrato.8360f9085a720b016486.png",
+    "static/media/joao.jpg": "/CMHub-PAGES/static/media/joao.8064e537b25abbd9e918.jpg",
+    "static/media/banner_principal.png": "/CMHub-PAGES/static/media/banner_principal.f8d0d39550a838a69272.png",
+    "static/media/banner_secundario.png": "/CMHub-PAGES/static/media/banner_secundario.b4a60d5942b9507f69fd.png",
+    "static/media/cypher.jpg": "/CMHub-PAGES/static/media/cypher.eebc6ec3b6b08372cead.jpg",
+    "static/media/notas_saber.png": "/CMHub-PAGES/static/media/notas_saber.1d5d54cebc4e279f7067.png",
+    "static/media/desafio.png": "/CMHub-PAGES/static/media/desafio.dcbe81eafabbbeaffb3f.png",
+    "static/media/vamos_jogar.png": "/CMHub-PAGES/static/media/vamos_jogar.7b3bedda4c0f543c47cf.png",
+    "static/media/saber_evolve.png": "/CMHub-PAGES/static/media/saber_evolve.7e159a55308a3159e172.png",
+    "static/media/logo_justa.png": "/CMHub-PAGES/static/media/logo_justa.ef28e8f9ba34657d8999.png",
+    "static/media/tomark_coracao.png": "/CMHub-PAGES/static/media/tomark_coracao.fef8ad262db5334af081.png",
+    "static/media/feed.png": "/CMHub-PAGES/static/media/feed.e18b043f833f7077eba9.png",
+    "static/media/botao_compartilhar.png": "/CMHub-PAGES/static/media/botao_compartilhar.5e043f215e5264eeaf30.png",
+    "index.html": "/CMHub-PAGES/index.html",
+    "main.c1b5c667.css.map": "/CMHub-PAGES/static/css/main.c1b5c667.css.map",
+    "main.83f97fc6.js.map": "/CMHub-PAGES/static/js/main.83f97fc6.js.map",
+    "453.204745bd.chunk.js.map": "/CMHub-PAGES/static/js/453.204745bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1b5c667.css",
+    "static/js/main.83f97fc6.js"
+  ]
+}
