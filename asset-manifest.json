@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CMHub-PAGES/static/css/main.c1b5c667.css",
-    "main.js": "/CMHub-PAGES/static/js/main.83f97fc6.js",
+    "main.js": "/CMHub-PAGES/static/js/main.8d97e2fc.js",
     "static/js/453.204745bd.chunk.js": "/CMHub-PAGES/static/js/453.204745bd.chunk.js",
     "static/media/pedro.jpg": "/CMHub-PAGES/static/media/pedro.af4e2004ede5dd29a0ad.jpg",
     "static/media/maria.jpg": "/CMHub-PAGES/static/media/maria.175123c3c112a83b4112.jpg",
@@ -20,11 +20,11 @@
     "static/media/botao_compartilhar.png": "/CMHub-PAGES/static/media/botao_compartilhar.5e043f215e5264eeaf30.png",
     "index.html": "/CMHub-PAGES/index.html",
     "main.c1b5c667.css.map": "/CMHub-PAGES/static/css/main.c1b5c667.css.map",
-    "main.83f97fc6.js.map": "/CMHub-PAGES/static/js/main.83f97fc6.js.map",
+    "main.8d97e2fc.js.map": "/CMHub-PAGES/static/js/main.8d97e2fc.js.map",
     "453.204745bd.chunk.js.map": "/CMHub-PAGES/static/js/453.204745bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1b5c667.css",
-    "static/js/main.83f97fc6.js"
+    "static/js/main.8d97e2fc.js"
   ]
 }
