@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Home.module.css";
+import axios from 'axios';
+
+import * as api from '../../api';
 
 // ELEMENTOS EXTERNOS
 
